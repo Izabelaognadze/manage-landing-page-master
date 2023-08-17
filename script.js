@@ -1,10 +1,14 @@
-function enableBurger() {
-    document.body.dataset.hamburger = "enabled";
-}
+const hamburgerMenu = document.getElementById('hamburger-menu');
+const menuElements = document.getElementById('menu-elements');
+const openBurger = document.getElementById('open-burger');
+const closeBurger = document.getElementById('close-burger');
 
-function disableBurger() {
-    document.body.dataset.hamburger = "disabled"
-}
+hamburgerMenu.addEventListener('click', () => {
+    openBurger.classList.toggle('hidden');
+    closeBurger.classList.toggle('hidden');
+    menuElements.classList.toggle('flex');
+    menuElements.classList.toggle('hidden');
+});
 
 const slider = new A11YSlider(document.querySelector(".slider"), {
     slidesToShow: 1,

@@ -2,14 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-[data-hamburger="enabled"] {
-    --hamburger-enabled-display: none;
-}
-
-[data-hamburger="disabled"] {
-    --hamburger-disabled-display: none;
-}
-
 .a11y-slider-autoplay {
     font-size: 0;
 }

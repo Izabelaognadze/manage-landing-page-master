@@ -568,6 +568,10 @@ video {
   }
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
 }
@@ -634,10 +638,6 @@ video {
   margin-top: 7rem;
 }
 
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
 .block {
   display: block;
 }
@@ -650,24 +650,56 @@ video {
   display: none;
 }
 
+.h-1 {
+  height: 0.25rem;
+}
+
 .h-8 {
   height: 2rem;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-5 {
+  height: 1.25rem;
+}
+
+.h-7 {
+  height: 1.75rem;
 }
 
 .max-h-20 {
   max-height: 5rem;
 }
 
-.min-h-\[100px\] {
-  min-height: 100px;
+.w-7 {
+  width: 1.75rem;
+}
+
+.w-\[90\%\] {
+  width: 90%;
 }
 
 .w-full {
   width: 100%;
 }
 
-.min-w-\[33\%\] {
-  min-width: 33%;
+.w-20 {
+  width: 5rem;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-5 {
+  width: 1.25rem;
 }
 
 .max-w-2xl {
@@ -694,18 +726,6 @@ video {
   max-width: 20rem;
 }
 
-.max-w-\[33\%\] {
-  max-width: 33%;
-}
-
-.max-w-\[80\] {
-  max-width: 80;
-}
-
-.max-w-\[80\%\] {
-  max-width: 80%;
-}
-
 .-translate-y-10 {
   --tw-translate-y: -2.5rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -723,16 +743,16 @@ video {
   flex-direction: column-reverse;
 }
 
-.content-center {
-  align-content: center;
-}
-
 .items-start {
   align-items: flex-start;
 }
 
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-center {
@@ -749,12 +769,6 @@ video {
 
 .justify-evenly {
   justify-content: space-evenly;
-}
-
-.space-x-10 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(2.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-x-3 > :not([hidden]) ~ :not([hidden]) {
@@ -775,18 +789,16 @@ video {
   margin-bottom: calc(0px * var(--tw-space-y-reverse));
 }
 
-.space-x-5 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1.25rem * var(--tw-space-x-reverse));
-  margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
+.space-y-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
 }
 
-.self-start {
-  align-self: flex-start;
-}
-
-.self-center {
-  align-self: center;
+.space-y-7 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.75rem * var(--tw-space-y-reverse));
 }
 
 .overflow-hidden {
@@ -795,6 +807,10 @@ video {
 
 .rounded-full {
   border-radius: 9999px;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
 }
 
 .rounded-l-full {
@@ -826,6 +842,11 @@ video {
   background-color: rgba(255,240,235,255);
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -853,6 +874,11 @@ video {
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .py-14 {
@@ -899,6 +925,10 @@ video {
   padding-left: 1.25rem;
 }
 
+.pr-5 {
+  padding-right: 1.25rem;
+}
+
 .pt-16 {
   padding-top: 4rem;
 }
@@ -917,14 +947,6 @@ video {
 
 .text-center {
   text-align: center;
-}
-
-.text-justify {
-  text-align: justify;
-}
-
-.align-middle {
-  vertical-align: middle;
 }
 
 .text-4xl {
@@ -1008,22 +1030,6 @@ video {
 .shadow-slate-400 {
   --tw-shadow-color: #94a3b8;
   --tw-shadow: var(--tw-shadow-colored);
-}
-
-.duration-75 {
-  transition-duration: 75ms;
-}
-
-.ease-in-out {
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-[data-hamburger="enabled"] {
-  --hamburger-enabled-display: none;
-}
-
-[data-hamburger="disabled"] {
-  --hamburger-disabled-display: none;
 }
 
 .a11y-slider-autoplay {
@@ -1149,6 +1155,11 @@ body {
   color: rgba(249,143,117,255);
 }
 
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
 @media (min-width: 768px) {
   .md\:mx-0 {
     margin-left: 0px;
@@ -1169,10 +1180,6 @@ body {
     margin-left: 6rem;
   }
 
-  .md\:mt-20 {
-    margin-top: 5rem;
-  }
-
   .md\:block {
     display: block;
   }
@@ -1187,10 +1194,6 @@ body {
 
   .md\:w-1\/2 {
     width: 50%;
-  }
-
-  .md\:max-w-none {
-    max-width: none;
   }
 
   .md\:flex-row {
