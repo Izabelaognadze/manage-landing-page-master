@@ -45,8 +45,8 @@
 
 body {
     background: url(../images/bg-tablet-pattern.svg) no-repeat;
-    background-position: 50% -3%;
-    background-size: 500px;
+    background-position: 100% -8%;
+    background-size: 600px;
 }
 
 .different-bg {
@@ -62,6 +62,13 @@ body {
     background-position: 0 50%;
 }
 
+.main-content {
+    background-image: url(../images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: 150px 550px;
+}
+
 @media (min-width: 768px) {
     body {
         background-position: 99% -25%;
@@ -74,9 +81,26 @@ body {
         background-position: -70% -40%;
     }
 
+    .main-content {
+        background-size: 800px;
+        background-position: bottom left 300%;
+    }
+
     .simplify-bg {
         background-image: url(../images/bg-simplify-section-desktop.svg);
         background-repeat: repeat-x;
         background-size: auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .main-content {
+        background-position: bottom left -100%;
+    }
+}
+
+@media (min-width: 1280px) {
+    .main-content {
+        background-position: bottom left -50%;
     }
 }
