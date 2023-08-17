@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[data-hamburger="enabled"] {
+    --hamburger-enabled-display: none;
+}
+
+[data-hamburger="disabled"] {
+    --hamburger-disabled-display: none;
+}
+
+.a11y-slider-autoplay {
+    font-size: 0;
+}
+
+.a11y-slider-dots {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    list-style: none;
+    font-size: 0;
+    margin: 0 0 2em;
+    padding: 0;
+}
+
+.a11y-slider-dots li {
+    color: white;
+    display: block;
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    margin: 0 6px;
+}
+
+.a11y-slider-dots li button {
+    display: block;
+    font-size: 0;
+    text-indent: -9999px;
+    border: 1px solid hsl(12, 88%, 59%) !important;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    margin-top: 32px;
+}
+
+.active {
+    background-color: hsl(12, 88%, 59%);
+}
+
+body {
+    background: url(../images/bg-tablet-pattern.svg) no-repeat;
+    background-position: 50% -3%;
+    background-size: 500px;
+}
+
+.different-bg {
+    background: url(../images/bg-tablet-pattern.svg) no-repeat;
+    background-size: 400px;
+    background-position: 700% -18%;
+}
+
+.simplify-bg {
+    background-image: url(../images/bg-simplify-section-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: 0 50%;
+}
+
+@media (min-width: 768px) {
+    body {
+        background-position: 99% -25%;
+        background-size: 1000px;
+    }
+
+    .different-bg {
+        background: url(../images/bg-tablet-pattern.svg) no-repeat;
+        background-size: 1000px;
+        background-position: -70% -40%;
+    }
+
+    .simplify-bg {
+        background-image: url(../images/bg-simplify-section-desktop.svg);
+        background-repeat: repeat-x;
+        background-size: auto;
+    }
+}
