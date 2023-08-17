@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://github.com/Izabelaognadze/manage-landing-page-master)
+- Live Site URL: [live URL here](https://izabelaognadze.github.io/manage-landing-page-master/)
 
 ## My process
 
@@ -56,11 +56,9 @@ Users should be able to:
 
 ### Useful resources
 
-- [Example resource 1](https://tools.w3cub.com/html-entities).
+- [resource 1](https://tools.w3cub.com/html-entities).
 - [youtube link](https://www.youtube.com/watch?v=aSlK3GhRuXA)
 - [a11yslider Link](https://a11yslider.js.org/)
-- [Example resource 4](https://www.example.com)
-- [Example resource 5](https://www.example.com)
 
 
 ## Author
