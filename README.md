@@ -40,6 +40,7 @@ Users should be able to:
 In the project directory, you can run:
 
 ```bash
+npm i
 npm run watch
 ```
 
