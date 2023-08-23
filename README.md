@@ -11,12 +11,11 @@ This is a solution to the [Manage landing page challenge on Frontend Mentor](htt
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Links](#links)
+  - [Start the app](# Start the app)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
+  - 
 - [Author](#author)
-
 
 ## Overview
 
@@ -36,6 +35,14 @@ Users should be able to:
 - Solution URL: [solution URL here](https://github.com/Izabelaognadze/manage-landing-page-master)
 - Live Site URL: [live URL here](https://izabelaognadze.github.io/manage-landing-page-master/)
 
+## Start the app
+
+In the project directory, you can run:
+
+```bash
+npm run watch
+```
+
 ## My process
 
 ### Built with
@@ -43,23 +50,9 @@ Users should be able to:
 - Semantic HTML5 markup
 - Tailwind Css
 - Flexbox
-- CSS Grid
+- Grid
 - Mobile-first workflow
-
-### What I learned
-
-```css
-<button class="animate-bounce">
-</button>
-```
-
-
-### Useful resources
-
-- [resource 1](https://tools.w3cub.com/html-entities).
-- [youtube link](https://www.youtube.com/watch?v=aSlK3GhRuXA)
-- [a11yslider Link](https://a11yslider.js.org/)
-
+- Javascript
 
 ## Author
 

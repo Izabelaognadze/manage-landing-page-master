@@ -27,3 +27,7 @@ const slider = new A11YSlider(document.querySelector(".slider"), {
         }
     }
 });
+
+const mailNot = document.getElementById('mail');
+// mailNot.text
+console.log(mailNot)

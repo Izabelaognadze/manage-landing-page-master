@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./**/*.{html,js}"],
+  content: ["./**/*.html"],
   theme: {
     extend: {
       colors: {
@@ -12,7 +12,9 @@ module.exports = {
         NeutralVeryDarkBlue: 'hsl(233, 12%, 13%)',
         NeutralVeryPaleRed: 'hsl(13, 100%, 96%)',
         NeutralVaryLightGray: 'hsl(0, 0%, 98%)',
-        AttributionColor: 'hsl(228, 45%, 44%)'
+        AttributionColor: 'hsl(228, 45%, 44%)',
+        FacebookLeft: "#63AFDB",
+        FacebookRight: "#6028F1",
       },
       lineHeight: {
         '118': '1.18rem'
