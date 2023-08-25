@@ -35,7 +35,7 @@ Users should be able to:
 - Solution URL: [solution URL here](https://github.com/Izabelaognadze/manage-landing-page-master)
 - Live Site URL: [live URL here](https://izabelaognadze.github.io/manage-landing-page-master/)
 
-## Start the app
+### Start the app
 
 In the project directory, you can run:
 
