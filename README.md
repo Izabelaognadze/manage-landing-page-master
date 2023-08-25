@@ -11,7 +11,7 @@ This is a solution to the [Manage landing page challenge on Frontend Mentor](htt
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Links](#links)
-  - [Start the app](# Start the app)
+  - [Start the app](#Start the app)
 - [My process](#my-process)
   - [Built with](#built-with)
   - 
